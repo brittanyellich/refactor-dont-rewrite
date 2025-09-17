@@ -55,6 +55,19 @@ Okay maybe this is more realistic. It's a bit hairy. It has bandaids. It has cod
 
 ---
 layout: default
+image: 'images/mountain.png'
+---
+
+<div class="flex justify-center">
+    <img src="./images/mountain.png" alt="A mountain with the text 'Beware Mount Tech Debt Ahead'" width="500px" />
+</div>
+
+<!--
+Over time, software systems build a mountain of tech debt
+-->
+
+---
+layout: default
 ---
 
 <div class="flex justify-center">
@@ -331,13 +344,14 @@ You won't suddenly work better by adopting a new technology.
 -->
 
 ---
-layout: quote
+layout: image-right
+image: 'images/mountain.png'
 ---
 
 # "So if rewrites are out, how do we tackle our mountains of tech debt?"
 
 <!--
-Agile > Waterfall
+
 -->
 
 
@@ -451,13 +465,18 @@ Create the first step and ask the agent to apply it to the rest of your applicat
 -->
 
 ---
-layout: section
+layout: image-right
+image: 'images/valley.png'
 ---
 
-# Recap
+# Turn your tech debt mountains into managed terrain
 
-- Refactor, don't rewrite: The top 3 arguments and why they're wrong
+- Refactor, don't rewrite
 - Getting AI to help you: How to use agents today
+
+<!--
+
+-->
 
 ---
 layout: default
