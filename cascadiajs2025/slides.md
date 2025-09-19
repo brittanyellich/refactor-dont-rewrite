@@ -12,12 +12,13 @@ transition: none
 
 # From Rewrites to AI Agents for App Modernization
 
+<img src="./images/repositoryqrcode.png" alt="qr code to the repository link" width="200px" class="absolute right-10 bottom-10" />
 <div class="absolute bottom-10">
   <p class="font-700">
     Brittany Ellich, GitHub | <a href="https://brittanyellich.com" target="_blank">brittanyellich.com</a>
   </p>
-  <a href="https://github.com/brittanyellich/rewrites" target="_blank">
-    <carbon:logo-github /> brittanyellich/rewrites
+  <a href="https://github.com/brittanyellich/refactor-dont-rewrite" target="_blank">
+    <carbon:logo-github /> brittanyellich/refactor-dont-rewrite
   </a>
 </div>
 
@@ -263,11 +264,11 @@ image: 'images/16.png'
 
 Production applications are inherently messy - and that's a feature, not a bug.
 
-<ul>
-    <li v-click>Your "ugly" edge cases = real business requirements discovered through user feedback</li>
-    <li v-click>Workarounds = institutional knowledge</li>
-    <li v-click>Weird conditionals = patches for critical customer scenarios from a 2AM outage</li>
-    <li v-click>"Unnecessary" features = critical dependencies for actual users</li>
+<ul v-click>
+    <li>Your "ugly" edge cases = real business requirements discovered through user feedback</li>
+    <li>Workarounds = institutional knowledge</li>
+    <li>Weird conditionals = patches for critical customer scenarios from a 2AM outage</li>
+    <li>"Unnecessary" features = critical dependencies for actual users</li>
 </ul>
 
 <!--
@@ -316,7 +317,7 @@ image: 'images/18.png'
 
 # 3. The current technology stack is holding us back.
 
-It isn't.
+It's not the technology. It's how you use it.
 
 <!--
 Good software design principles apply regardless of the tech stack.
@@ -351,10 +352,22 @@ Would this be a talk in 2025 if I didn't mention AI?
 layout: image
 ---
 
+<img src="./images/ai.png" alt="A comic depicting an someone yelling at an engineer in 2023 that all software engineers would be replace by AI, and then asking that engineer in 2025 to please fix their AI-generated code" />
+
+<!--
+If you're tired of the hype, I get it. We've been told by executives what the future of software engineering looks like, and honestly? Their vision often feels pretty grim for us.
+But here's the thing - we're the ones actually writing the code. We get to decide how these tools fit into our workflow, not the other way around.
+This is our chance to define what AI-assisted development actually looks like day-to-day. And for me? Using agents to handle tech debt grunt work while I focus on building features - that's genuinely exciting.
+-->
+
+---
+layout: image
+---
+
 <img src="./images/codingagentdemo.gif" alt="GitHub Copilot coding agent demo gif" />
 
 <!--
-An aside: I work at GitHub, but I'm an engineer, not in sales. I'm not here to sell you all on Copilot. That's not my job. But this is the tool I've used the most.
+An aside: I work at GitHub, but I'm an engineer, not in sales. I'm not here to sell you all on Copilot. That's not my job. But this is the tool I've used the most. You can insert your tool of choice here.
 -->
 
 ---
@@ -369,6 +382,7 @@ layout: default
             <li v-click>Increasing test coverage</li>
             <li v-click>Searching your codebase to find inconsistent approaches</li>
             <li v-click>Taking patterns and applying them across your codebase incrementally</li>
+            <li v-click>So many more! Look at YOUR backlog for ideas</li>
             <li v-click><a href="https://github.blog/ai-and-ml/github-copilot/how-the-github-billing-team-uses-the-coding-agent-in-github-copilot-to-continuously-burn-down-technical-debt/">How the GitHub billing team uses the coding agent in GitHub Copilot to continuously burn down technical debt</a></li>
         </ul>
         <img src="./images/blogpostqrcode.png" alt="qr code to blog post" width="200px" />
@@ -456,16 +470,17 @@ image: 'images/valley.png'
 - Getting AI to help you: How to use agents today
 
 <!--
-
+The industry is moving fast.
+Now is not the time to invest in huge rewrite efforts or to spend valuable engineer innovation time on tech debt. 
 -->
 
 ---
 layout: default
 ---
 
-# Homework
+# A challenge
 
-Make a list of tech debt problems that you have been putting off and give them to an AI Agent to handle them.
+Make a list of tech debt problems that you have been putting off and give them to an AI Agent tool to handle them.
 
 ## Resources
 
@@ -478,6 +493,7 @@ Make a list of tech debt problems that you have been putting off and give them t
 ## Thank you!
 My website is [brittanyellich.com](https://brittanyellich.com), let's be internet friends!
 
+<div class="flex">
 <a href="https://github.com/brittanyellich" target="_blank">
     <carbon:logo-github />
 </a>
@@ -485,6 +501,11 @@ My website is [brittanyellich.com](https://brittanyellich.com), let's be interne
 <a href="https://www.linkedin.com/in/brittanyellich/" target="_blank">
     <carbon:logo-linkedin />
 </a>
+
+<a href="https://bsky.app/profile/brittanyellich.com" target="_blank">
+    <img src="./images/bluesky.svg" alt="Bluesky" style="height: 18px; width: 18px; margin-top: 4px;" />
+</a>
+</div>
     </div>
     <img src="./images/brittanyellichqrcode.png" alt="qr code to brittanyellich.com" width="200px" />
 </div>
