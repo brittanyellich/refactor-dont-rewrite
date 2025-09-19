@@ -2,7 +2,7 @@
 theme: apple-basic
 title: From Rewrites to AI Agents for App Modernization
 info: |
-  More info at https://github.com/brittanyellich/rewrites
+  More info at https://github.com/brittanyellich/refactor-dont-rewrite
 drawings:
   persist: false
 mdc: true
@@ -52,6 +52,7 @@ image: 'images/2.png'
 
 <!--
 Okay maybe this is more realistic. It's a bit hairy. It has bandaids. It has code smells.
+Software ages like milk.
 -->
 
 ---
@@ -64,7 +65,7 @@ image: 'images/mountain.png'
 </div>
 
 <!--
-Over time, software systems build a mountain of tech debt
+We build these tech debt mountains, continuously making trade-offs to keep shipping features.
 -->
 
 ---
