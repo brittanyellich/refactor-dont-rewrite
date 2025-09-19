@@ -293,20 +293,20 @@ image: 'images/17.png'
 </ul>
 
 <!--
-A lot of times these efforts come with an excuse for the team to learn a new technology. But anything created in the last decade is probably fine. It's not the technology, it's how you use it.
+A lot of times these efforts come with an excuse for the team to learn a new technology. 
 
 click.
 This is what this sounds like.
 
 But here's the thing:
 
+You can make any technology really bad.
+
 It's easy to learn a new technology, but hard to learn it well. That learning is going to be an undertaking on its own. 
 
 While I love a greenfield project as much as the next engineer...
 
-Refactoring a legacy codebase is arguably much more technically interesting. 
-
-I argue it's more impactful to modernize a legacy codebase in less time and a technology the team is already familiar with than to rewrite a brand new one.
+I argue it's more impactful to modernize a legacy codebase in less time and a technology the team is already familiar with than to rewrite a brand new one. Refactoring a legacy codebase is arguably much more technically interesting.
 -->
 
 ---
@@ -322,26 +322,6 @@ It isn't.
 Good software design principles apply regardless of the tech stack.
 -->
 
----
-layout: center
-class: text-center
----
-
-# Refactor, don't rewrite.
-
-<p v-click>You don't need a rewrite.</p>
-<p v-click>It will take too long.</p>
-<p v-click>All production applications are messy.</p>
-<p v-click>You won't suddenly work better by adopting a new technology.</p>
-
-<!--
-There are some cases where a rewrites makes sense. But if you can't clearly articulate why a rewrites is necessary, refactor instead.
-
-You probably don't need a rewrite.
-It will probably take too long.
-Your production application will not be the perfect, bug-free, clean-code space you think it will be.
-You won't suddenly work better by adopting a new technology.
--->
 
 ---
 layout: image-right
@@ -391,6 +371,7 @@ layout: default
             <li v-click>Taking patterns and applying them across your codebase incrementally</li>
             <li v-click><a href="https://github.blog/ai-and-ml/github-copilot/how-the-github-billing-team-uses-the-coding-agent-in-github-copilot-to-continuously-burn-down-technical-debt/">How the GitHub billing team uses the coding agent in GitHub Copilot to continuously burn down technical debt</a></li>
         </ul>
+        <img src="./images/blogpostqrcode.png" alt="qr code to blog post" width="200px" />
     </div>
     <div style="width: 70%">
         <img src="./images/coding-agent.webp" alt="GitHub Copilot coding agent" />
@@ -491,8 +472,10 @@ Make a list of tech debt problems that you have been putting off and give them t
 
 - Article: [How the GitHub billing team uses the coding agent in GitHub Copilot to continuously burn down technical debt](https://github.blog/ai-and-ml/github-copilot/how-the-github-billing-team-uses-the-coding-agent-in-github-copilot-to-continuously-burn-down-technical-debt/)
 
-## Thank you!
+<div style="display: flex; justify-content: space-between;" >
+    <div>
 
+## Thank you!
 My website is [brittanyellich.com](https://brittanyellich.com), let's be internet friends!
 
 <a href="https://github.com/brittanyellich" target="_blank">
@@ -502,3 +485,6 @@ My website is [brittanyellich.com](https://brittanyellich.com), let's be interne
 <a href="https://www.linkedin.com/in/brittanyellich/" target="_blank">
     <carbon:logo-linkedin />
 </a>
+    </div>
+    <img src="./images/brittanyellichqrcode.png" alt="qr code to brittanyellich.com" width="200px" />
+</div>
